@@ -9,15 +9,15 @@ This project explain's the process of creating an instance of windows server 202
 
 <h2>Utilities Used</h2>
 
-- <b>Server manager</b> 
-- <b>Cmd</b>
+- <b></b> 
+- <b></b>
 - <b>Control Panel</b>
 
 <h2>Environments Used </h2>
 
 - <b>Virtual Box</b> (21H2)
 - <b>Windows 10 pro</b> (21H2)
-- <b>Windows Server 2022</b> (21H2)
+- <b></b> (21H2)
 
 <h2>Program walk-through:</h2>
 
