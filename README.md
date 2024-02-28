@@ -1,9 +1,9 @@
-<h1>Corrupted file rebuild</h1>
+<h1>Corrupted profile rebuild</h1>
 
  
 
 <h2>Description</h2>
-This project explain's the process of creating an instance of windows server 2022 and, a windows 10 pro client. The project also explains creating an active directory domain with an admin ou and, account. Finaly the project also explains setting up basic nat/routing, dhcp server and, a dns server. 
+In this project i explain the process of rebuilding a corropted windows profile and transffering important files to  the new profile. 
 <br />
 
 
@@ -21,29 +21,29 @@ This project explain's the process of creating an instance of windows server 202
 
 <h2>Program walk-through:</h2>
 
-Create a virtual machine in virtualbox and select windows server 2022 for desktop.
-<img src="createDC.png" height="80%" width="80%"/>
+log onto the clients computer with administrative account.
+<img src="images/.png" height="80%" width="80%"/>
 
-Add two nic's one with nat and, one internal nic for client pc.
-<img src="addNic.png" height="80%" width="80%"/>
+Go into the c drive go to users find the affected profile and change the name to old.
+<img src="images/.png" height="80%" width="80%"/>
 
-Go to control panel, system, rename pc(advanced) change pc name to DC and add to domain.
-<img src="dmchange.png" height="80%" width="80%" />
+Go to the windows registry by typing run and regedit.
+<img src="images/.png" height="80%" width="80%" />
 
-Go to network and sharing center choose network connections label both nic's and, add defult gateway.
-<img src="nic.png" height="80%" width="80%" />
+Go to local system, 
+<img src="images/.png" height="80%" width="80%" />
 
-Go to server manager and select add roles.
-<img src="addroles.png" height="80%" width="80%" />
+Next export the user profile to your desktop and delete the key in the registy.
+<img src="images/.png" height="80%" width="80%" />
  
- Select the domain controller.
-<img src="selectserver.png" height="80%" width="80%" />
+ Next log out of the administrator acount and, log back in the the  users account.
+<img src="images/.png" height="80%" width="80%" />
   
-  Choose active directory domain services and, click next and install.
-<img src="dhcp.png" height="80%" width="80%" />
+  Windows will rebuid the profile.
+<img src="images/.png" height="80%" width="80%" />
   
-  Go to the yellow triangle to create a new domain. 
-<img src="trianglead.png" height="80%" width="80%" or trianglead />
+  After the account is rebuilt log in with admin account and,find the old user account.!!
+<img src="images/.png" height="80%" width="80%" or trianglead />
   
   Go to tools then active directory users and computers and, create new administrator ou.
 <img src="Newou.png" height="80%" width="80%" />
