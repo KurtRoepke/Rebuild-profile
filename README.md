@@ -9,8 +9,8 @@ In this project i explain the process of rebuilding a corropted windows profile 
 
 <h2>Utilities Used</h2>
 
-- <b></b> 
-- <b></b>
+- <b>Windows Registry</b> 
+- <b>File Explorer</b>
 - <b>Control Panel</b>
 
 <h2>Environments Used </h2>
