@@ -31,7 +31,7 @@ Go to the windows registry by typing run and regedit.
 <img src="images/3.png" height="80%" width="80%" />
 
 Go to local system, software, microsoft, windows nt, current version, profile list.
-<img src="images/.png" height="80%" width="80%" />
+<img src="images/4.png" height="80%" width="80%" />
 
 Next find the security identifier and export it to your desktop and delete the key in the registy.
 <img src="images/5.png" height="80%" width="80%" />
