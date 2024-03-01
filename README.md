@@ -30,7 +30,7 @@ Go into the c drive go to users find the affected profile and change the name to
 Go to the windows registry by typing run and regedit.
 <img src="images/.png" height="80%" width="80%" />
 
-Go to local system, softwear, microsoft, windows nt, curent version, profile list.
+Go to local system, software, microsoft, windows nt, current version, profile list.
 <img src="images/.png" height="80%" width="80%" />
 
 Next find the security identifier and export it to your desktop and delete the key in the registy.
@@ -42,7 +42,7 @@ Next find the security identifier and export it to your desktop and delete the k
   Windows will rebuid the profile.
 <img src="images/.png" height="80%" width="80%" />
   
-  After the account is rebuilt log in with admin account and,find the old user account.
+  After the account is rebuilt log in with admin account and,find the old user account in the c drive.
 <img src="images/.png" height="80%" width="80%" or trianglead />
   
   Transfer needed files to the new user profile.
