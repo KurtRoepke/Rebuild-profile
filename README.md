@@ -3,7 +3,7 @@
  
 
 <h2>Description</h2>
-In this project i explain the process of rebuilding a corropted windows profile and transffering important files to  the new profile. 
+In this repository i explain the process of rebuilding a corrupted windows profile and transffering important files to the new profile.I use the file explorer to find the user profile and, rename it. Next i access the windows registry to delete the user key so windows can rebuid the profile and, finally transfer important files by going to Users in the file explorer.
 <br />
 
 
