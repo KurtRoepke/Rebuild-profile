@@ -17,7 +17,6 @@ In this repository i explain the process of rebuilding a corrupted windows profi
 
 - <b>Virtual Box</b> (21H2)
 - <b>Windows 10 pro</b> (21H2)
-- <b></b> (21H2)
 
 <h2>Program walk-through:</h2>
 
