@@ -19,7 +19,7 @@ In this repository i explain the process of rebuilding a corrupted windows profi
 - <b>Windows 10 pro</b> (21H2)
 
 <h2>Program walk-through:</h2>
-
+<p align="center">
 First log onto the clients computer with an administrative account.
 <img src="images/1.png" height="80%" width="80%"/>
 
@@ -49,4 +49,4 @@ Go find the security identifier and export it to your desktop and delete the key
   
   Finaly log back into the rebuilt profile.
 <img src="images/9.png" height="80%" width="80%" />
-
+</p>
